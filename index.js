@@ -46,12 +46,14 @@ function addTransaction() {
   if (
     balances.filter(
       (balance) =>
-        balance.name === document.getElementById("customerName").value,
+        balance.name.toLocaleLowerCase() ===
+        document.getElementById("customerName").value.toLocaleLowerCase(),
     ).length > 0
   )
     customerId = balances.filter(
       (balance) =>
-        balance.name === document.getElementById("customerName").value,
+        balance.name.toLocaleLowerCase() ===
+        document.getElementById("customerName").value.toLocaleLowerCase(),
     )[0].customerId;
   let trans = {
     id: transactions.length + 1,
