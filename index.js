@@ -1,3 +1,4 @@
+//
 let transactions = [
   { id: 1, customerId: 1, credit: 200, date: "2022-01-01", debit: 0 },
   { id: 2, customerId: 2, credit: 1200, date: "2022-01-01", debit: 0 },
@@ -14,6 +15,7 @@ let balances = [
   { id: 2, customerId: 2, name: "Fati", balance: 1200 },
   { id: 3, customerId: 3, name: "Hassan", balance: 2200 },
 ];
+//updates the latest balance
 function refresh() {
   document.getElementById("balanceList").innerHTML = "";
   for (let index = 0; index < balances.length; index++) {
@@ -22,7 +24,7 @@ function refresh() {
     ).innerHTML += `<tr><td>${balances[index].name}</td><td>${balances[index].balance}</td><td><input type='button' class='btn btn-warning' value='Transactions' onClick="customerTransactions(${balances[index].customerId})" /></td></tr>`;
   }
 }
-
+// any given customers transactions
 function customerTransactions(customerId) {
   let filteredTrans = [...transactions].filter(filterTrans(customerId));
   console.log(transactions.length);
@@ -37,10 +39,11 @@ function customerTransactions(customerId) {
   document.getElementById("transactions").innerHTML =
     tableStr + innerHTML + "</tbody></table>";
 }
+// filter transaction by costumer ID
 function filterTrans(customerId) {
   return (trans) => trans.customerId === customerId;
 }
-
+// add transaction
 function addTransaction() {
   let customerId = balances.length + 1;
   if (
