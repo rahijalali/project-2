@@ -17,12 +17,13 @@ https://ui.dev/amiresponsive?url=https://rahijalali.github.io/project-2/
 - Add New Record
 - Delete Record
 - Update Record
+- filter by ID
 
 ### Technologies
 
 - HTML
 - CSS (inline)
-  -Js
+- JS
 - Bootstrap
 
 ### Live Demo
