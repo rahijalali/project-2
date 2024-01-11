@@ -26,7 +26,7 @@ function refresh() {
 function customerTransactions(customerId) {
   let filteredTrans = [...transactions].filter(filterTrans(customerId));
   console.log(transactions.length);
-  let tableStr = `<table class='table table-striped'><thead><tr><th>TransactionId</th><th>CustomerId</th><th>Credit</th><th>Debit</th><th>Date</th><th><a onClick='document.getElementById(
+  let tableStr = `<table class='table table-striped'><thead><tr style="font-size:small"><th>Transaction Id</th><th>Customer Id</th><th>Credit</th><th>Debit</th><th>Date</th><th><a onClick='document.getElementById(
     "transactions").innerHTML = ""' href='#' style="color:red">X</a></th></tr></thead><tbody>`;
   let innerHTML = "";
 
