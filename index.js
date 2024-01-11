@@ -1,4 +1,4 @@
-//
+// sample data
 let transactions = [
   { id: 1, customerId: 1, credit: 200, date: "2022-01-01", debit: 0 },
   { id: 2, customerId: 2, credit: 1200, date: "2022-01-01", debit: 0 },
