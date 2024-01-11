@@ -8,7 +8,7 @@ Record keeping can help you to find the information you need. It promotes the cr
 
 ![Alt text](./assets/img/responsive-test.jpg)
 ![Alt text](./assets/img/ipad.jpg)
-![Alt text](./assets/img/iphone.jpg)
+![Alt text](./assets/img/phone.jpg)
 
 https://ui.dev/amiresponsive?url=https://rahijalali.github.io/project-2/
 
@@ -35,7 +35,7 @@ https://rahijalali.github.io/project-2
 Validator Testing
 
 - HTML : no errors were returned when passing through the validator[ W3C validator]
-- CSS : no errors were returned when passing through the validator[ W3C validator]
+  ![Alt text](./assets/img/validatorw3.jpg)
 - Js : no errors were returned when passing through the validator https://jshint.com/
 
 ### Unfixed Bugs
