@@ -2,7 +2,8 @@
 
 ## Book Keeping System
 
-Record keeping can help you to find the information you need. It promotes the creation of full and accurate records in the first place. It also involves storing and managing records appropriately so that the information will be available to you when you need it. I wrote a book keeping system using JS , HTML, bootstrap and few inline css. very simple and easy to use for everyone specifically for the users request.
+Record keeping can help you to find the information you need. It promotes the creation of full and accurate records in the first place. It also involves storing and managing records appropriately so that the information will be available to you when you need it. I wrote a book keeping system using JS , HTML, bootstrap and few inline css. very simple and easy to use for everyone specifically for the users requested.
+As if now there is not any persistent storage media to stor data so it will lose data after each run.
 
 ### Responsive
 

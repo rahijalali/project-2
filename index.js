@@ -1,3 +1,4 @@
+// as if now there is not any persistent storage media to stor data so it will lose data after each run.
 // sample data
 let transactions = [
   { id: 1, customerId: 1, credit: 200, date: "2022-01-01", debit: 0 },
