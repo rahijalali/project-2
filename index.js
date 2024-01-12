@@ -1,10 +1,11 @@
 // as if now there is not any persistent storage media to stor data so it will lose data after each run.
 // sample data
 let transactions = [
-  { id: 1, customerId: 1, credit: 200, date: "2022-01-01", debit: 0 },
-  { id: 2, customerId: 2, credit: 1200, date: "2022-01-01", debit: 0 },
-  { id: 3, customerId: 3, credit: 2200, date: "2022-01-01", debit: 0 },
-  { id: 4, customerId: 3, credit: 2400, date: "2022-01-01", debit: 0 },
+  { id: 1, customerId: 1, credit: 200, date: "2024-01-01", debit: 0 },
+  { id: 2, customerId: 2, credit: 1200, date: "2023-01-06", debit: 0 },
+  { id: 3, customerId: 3, credit: 2200, date: "2024-01-02", debit: 0 },
+  { id: 4, customerId: 3, credit: 2400, date: "2024-01-09", debit: 0 },
+  { id: 5, customerId: 1, credit: 3000, date: "2024-01-12", debit: 500 },
 ];
 let balances = [
   {
