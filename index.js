@@ -16,6 +16,7 @@ let balances = [
   },
   { id: 2, customerId: 2, name: "Fati", balance: 1200 },
   { id: 3, customerId: 3, name: "Hassan", balance: 2200 },
+  { id: 6, customerId: 4, name: "Sara", balance: 3000 },
 ];
 //updates the latest balance
 function refresh() {
