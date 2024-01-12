@@ -8,7 +8,9 @@ As if now there is not any persistent storage media to stor data so it will lose
 ### Responsive
 
 ![Alt text](./assets/img/responsive-test.jpg)
+
 ![Alt text](./assets/img/ipad.jpg)
+
 ![Alt text](./assets/img/phone.jpg)
 
 https://ui.dev/amiresponsive?url=https://rahijalali.github.io/project-2/
