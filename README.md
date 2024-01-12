@@ -40,6 +40,14 @@ Validator Testing
 - HTML : no errors were returned when passing through the validator[ W3C validator]
   ![Alt text](./assets/img/validatorw3.jpg)
 - Js : no errors were returned when passing through the validator https://jshint.com/
+- lighthouse
+  ![Alt text](./assets/img/lighthouse.jpg)
+
+### Deployment
+
+- this site was deployed to GitHub pages.
+- in the Github repository there is a folder named project-2.
+- from the source section drop-down menu the main branch.
 
 ### Unfixed Bugs
 
