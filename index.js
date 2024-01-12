@@ -26,6 +26,9 @@ function refresh() {
   }
 }
 // any given customers transactions
+//In JavaScript, can use the spread operator to expand an iterable inside a specified receiver, as its name suggests.
+//This recipient could be anything, such as an object, an array, and so on. And the iterable can be anything we can loop through, including a string, an array, an object, and so on.
+
 function customerTransactions(customerId) {
   let filteredTrans = [...transactions].filter(filterTrans(customerId));
   console.log(transactions.length);
