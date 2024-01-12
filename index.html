@@ -13,6 +13,18 @@
     />
   </head>
   <body onload="refresh()" class="p-4">
+    <div>
+      <h2>New Transaction</h2>
+      <p>Name: <input type="text" id="customerName" /></p>
+      <p>Credit: <input value="0" type="number" id="credit" /></p>
+      <p>Debit: <input value="0" type="number" id="debit" /></p>
+      <input
+        type="button"
+        value="Add"
+        class="btn btn-primary"
+        onclick="addTransaction()"
+      />
+    </div>
     <div class="row">
       <div class="col">
         <table id="balancesTbl" class="table table-striped">
@@ -27,18 +39,6 @@
         </table>
       </div>
       <div class="col" id="transactions"></div>
-    </div>
-    <div>
-      <h2>New Transaction</h2>
-      <p>Name: <input type="text" id="customerName" /></p>
-      <p>Credit: <input value="0" type="number" id="credit" /></p>
-      <p>Debit: <input value="0" type="number" id="debit" /></p>
-      <input
-        type="button"
-        value="Add"
-        class="btn btn-primary"
-        onclick="addTransaction()"
-      />
     </div>
   </body>
 </html>
