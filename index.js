@@ -6,13 +6,14 @@ let transactions = [
   { id: 3, customerId: 3, credit: 2200, date: "2024-01-02", debit: 0 },
   { id: 4, customerId: 3, credit: 2400, date: "2024-01-09", debit: 0 },
   { id: 5, customerId: 1, credit: 3000, date: "2024-01-12", debit: 500 },
+  { id: 6, customerId: 4, credit: 3000, date: "2024-01-11", debit: 0 },
 ];
 let balances = [
   {
     id: 1,
     customerId: 1,
     name: "Sogand",
-    balance: 200,
+    balance: 2700,
   },
   { id: 2, customerId: 2, name: "Fati", balance: 1200 },
   { id: 3, customerId: 3, name: "Hassan", balance: 2200 },
