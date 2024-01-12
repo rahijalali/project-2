@@ -7,7 +7,7 @@ Welcome to Grandma's Money Manager, a user-friendly and straightforward system d
 
 ## Overview
 
-Managing finances can be overwhelming, so I've created this easy-to-use money bookkeeping system to help you keep track of your income and expenses effortlessly.
+Managing finances can be overwhelming, so I've created this easy-to-use money bookkeeping system to help user to keep track and record their financial transactions. The system is designed to be user-friendly, allowing users to easily add new transactions and view their financial history.
 
 ## Features
 
